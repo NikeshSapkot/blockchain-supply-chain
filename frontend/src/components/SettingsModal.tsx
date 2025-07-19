@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { X, Save, RefreshCw, Bell, Shield, Globe, Activity, Database, Zap } from 'lucide-react';
+import { X, Save, RefreshCw, Bell, Shield, Activity, Database, Zap } from 'lucide-react';
 
 interface SettingsModalProps {
   isOpen: boolean;
