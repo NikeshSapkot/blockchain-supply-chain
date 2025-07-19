@@ -1,6 +1,6 @@
 [build]
   base = "frontend"
-  command = "chmod +x build.sh && ./build.sh"
+  command = "npm install --legacy-peer-deps && npm run build"
   publish = "build"
 
 [build.environment]
