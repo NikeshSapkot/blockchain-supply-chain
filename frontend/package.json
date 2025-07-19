@@ -4,6 +4,7 @@
   "private": true,
   "description": "Blockchain Supply Chain Tracker - Decentralized supply chain tracking system",
   "author": "Nikesh Sapkot",
+  "homepage": ".",
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.3",
@@ -47,5 +48,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=8.0.0"
   }
 }
